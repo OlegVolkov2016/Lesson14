@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Lesson14.jnlp">
+  <information>
+    <title>Lesson14</title>
+    <vendor>makery.ch</vendor>
+    <description>AddressApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Lesson14.jar" size="18835" download="eager" />
+    <jar href="libs\controlsfx-8.0.6_20.jar" size="856539" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="ch.makery.address.MainApp"  name="AddressApp" />
+  <update check="background"/>
+</jnlp>
